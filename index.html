@@ -3,12 +3,16 @@
 <body>
 <h1>Kornvalai เขียนโค้ดครั้งแรก</h1>
 
-<p>เขียนอะไรก็ได้</p>
-<p>ก็แล้วจะทำไม</p>
+<p>ลูกค้ารอคิวสักครู่</p>
+<p>ต่อไปจะเป็นการแจกคิว</p>
 <p id="display"></p>
 
 <script>
-// We can put Javascript code here.
+function guest(pax, queueType){
+    runQueue = "จำนวนลูกค้า " + pax + " ท่าน ได้รับเป็นคิว " + queueType + " นะคะ" ;
+    document.getElementById("display").innerHTML = runQueue
+}
+guest("3 ","c");
 </script>
 
 </body>
